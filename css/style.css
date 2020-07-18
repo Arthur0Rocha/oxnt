@@ -1,0 +1,90 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+html, body{
+    color: rgba(150, 150, 150, 1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}    
+header div{
+    background-color: #272727;
+    padding: 1vw 0;
+    width: 100%;
+}
+header div img{
+    margin-left: 7%;
+    width: 7vw;
+    min-width: 70px;
+}
+.landscape{
+    width: 100%;
+    height: 305px;
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat-x;
+}
+.membros img{
+    height: 110px;
+    display: inline-block; 
+}
+.membros{
+    display: inline-block;
+    position: relative;
+    top: 170px;
+    left: calc(50% - 164px);
+}
+.arrow-down{
+    display: inline-block;
+    position: relative;
+    top: 204px;
+    left: calc(50% - 357px);
+}
+.arrow-down img{
+    width: 30px;
+}
+.jogos{
+    text-align: center;
+    margin-top: 70px;
+}
+.jogos div{
+    display: inline-block;
+    max-height: 400px;
+    min-height: 300px;
+    max-width: 400px;
+    min-width: 300px;
+    height: 40vw;
+    width: 40vw;
+    background-color: rgba(200, 200, 200, 0.3);
+    border: 2px solid rgba(100, 100, 100, 0.5);
+    border-radius: 10px;
+}
+.jogos h1{
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+footer{
+    border-top: 2px solid rgba(100, 100, 100, 0.5);
+    margin-top: 70px;
+    padding-top: 20px;
+    height: 110px;
+    text-align: center;
+}
+footer div{
+    display: inline-block;
+}
+footer img{
+    width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 15px;
+}
+footer h2{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 9px;
+}
+footer > h2{
+    display: block;
+    font-size: 17px;
+}
+
+
+
